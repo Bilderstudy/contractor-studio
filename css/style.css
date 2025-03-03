@@ -1,0 +1,150 @@
+
+body {
+  font-family:Roboto;
+background:url('../images/.png');
+  }
+    h3{color: rgb(70, 130, 180);
+
+  }
+  h4{color: rgb(70, 130, 180);
+
+  }
+  
+  .font-weight-bold{
+  font-weight: 600;
+}
+
+html {
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ }
+.modal-backdrop.in {
+opacity: 0;}
+
+.navbar{
+    height: 30px;
+}
+.navbar-nav {
+float: none;
+text-align: center;
+}
+.navbar-nav li {
+float: none;
+display: inline-block;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+.container .row{
+	margin-top:50px;
+}
+div.ogl {
+   
+    border:1px dotted #0c6b94;
+    padding:5px;
+    margin:5px;
+}	
+
+
+
+
+<!--.glyphicon-tower{
+  color: #8B4513; /* Цвет иконки */
+  font-size: 35px;
+}
+<!--.fa-heart-o {
+  color: #FF0000; /* Цвет иконки */
+    
+}
+<!--.fa-plus-square-o{
+  color: #FF0000; /* Цвет иконки */
+    
+}
+<!--.fa-home {
+  color: #00bfff; /* Цвет иконки */
+    
+}
+<!--.fa-usd {
+  color: #3CB371; /* Цвет иконки */
+    
+}
+.fa-users {
+  color: #FFE4B5; /* Цвет иконки */
+   text-shadow: 0 0 6px #000; /* Размытая тень */
+}
+.fa-pencil {
+color: #FF0000; /* Цвет иконки */
+    
+}
+.fa-picture-o {
+color: #32CD32; /* Цвет иконки */
+    
+}
+.fa-university {
+color: #00bfff; /* Цвет иконки */
+    
+}
+
+
+	.box h3{
+    text-align:center;
+    position:relative;
+    top:20px;
+}
+	.box h4{
+    text-align:center;
+    position:relative;
+    top:15px;
+}
+.box {
+    width:100%;
+    height:60px;
+    background:#FFF;
+    margin:10px auto;
+}
+.logo{text-align: center;}
+
+/*==================================================
+ * Effect 7
+ * ===============================================*/
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+	
